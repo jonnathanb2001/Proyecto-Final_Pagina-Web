@@ -1,0 +1,112 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Brand</title>
+    <link type='text/css' href='{% static "css/bootstrap.min.nosotros.css" %}' rel='stylesheet' />
+    <link type='text/css' href='{% static "css/Articles-Cards-images.css" %}' rel='stylesheet' />
+    <link type='text/css' href='{% static "css/Footer-Clean-icons.css" %}' rel='stylesheet' />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=ABeeZee&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abhaya+Libre&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alatsi&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arima+Madurai&amp;display=swap">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+</head>
+
+<style>
+    #fotojonnathan {
+        position: relative;
+        top: 280px;
+        left: 170px;
+
+    }
+
+    #fotoluis {
+        position: relative;
+        top: 285px;
+        left: 570px;
+
+    }
+    #logo2 {
+        position: relative;
+        top: 0px;
+        left: 50px;
+
+    }
+</style>
+
+<body>
+    
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
+        <u id="logo2">
+            <img src="{% static 'imagenes/logo.jpg'%}" height="60px" width="80px" />
+        </u>
+        <div class="container"><a class="navbar-brand logo" href="#">Best Search</a><button data-bs-toggle="collapse"
+                class="navbar-toggler" data-bs-target="#navbarNav"><span class="visually-hidden">Toggle
+                    navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Inicio de Sesión</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects-grid-cards.html">Acerca de Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cv.html">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="hire-me.html">ESP / ENG</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <u id="fotojonnathan">
+        <img src="{% static 'imagenes/Jonnathan.jpg'%}" height="180px" width="200px" />
+    </u>
+    <u id="fotoluis">
+        <img src="{% static 'imagenes/Luis.jpg'%}" height="180px" width="200px" />
+    </u>
+    <main class="page lanidng-page">
+        <section class="portfolio-block photography"></section>
+        <section class="portfolio-block skills"
+            style="border-width: 18px;border-radius: 1px;font-size: 20px;padding: -44px 0px;height: 828.047px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6"><img class="fit-cover" style="height: 200px;text-align: center;"
+                            src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png">
+                        <h4 style="font-weight: bold;font-family: ABeeZee, sans-serif;">Jonnathan Paúl Bueno Neira</h4>
+                        <p style="font-family: ABeeZee, sans-serif;">Nombre: Jonnathan Bueno<br>Edad: 20
+                            años<br>Docente: Ing. Lady Sangacha<br>Curso: M3B Matutino<br><br>Opinión:<br>Sobre Diseño
+                            de Interfaz me agrada mucho esta asignatura ya que trata sobre el como realizar&nbsp;un
+                            buena interfaz e ir mejorando en el diseño de acuerdo al usuario o al cliente y conocer las
+                            herramientas adecuadas para un correcto desarrollo de la GUI.</p>
+                    </div>
+                    <div class="col-md-6"><img class="fit-cover" style="height: 200px;text-align: center;"
+                            src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png">
+                        <h4 style="font-weight: bold;font-family: ABeeZee, sans-serif;">Luis Miguel Saico Guncay</h4>
+                        <p style="font-family: ABeeZee, sans-serif;text-align: left;">Nombre: Luis Saico<br>Edad: 28
+                            años<br>Docente: Ing. Lady Sangacha<br>Curso: M3B Matutino<br><br>Opinión:<br>Sobre Diseño
+                            de Interfaz ya tengo experiencia en diseñar&nbsp;ya que eh trabajado en empresas pero quiero
+                            seguir&nbsp;mejorando para una excelente atención al cliente y me da&nbsp;curiosidad hasta
+                            donde puedo llegar para un excelente diseño.&nbsp;</p>
+                    </div>
+                </div>
+            </div>
+            <footer class="text-bg-primary bg-dark sticky-footer"
+                style="--bs-secondary: #1d34e4;--bs-secondary-rgb: 29,52,228;--bs-dark: #3a3b45;--bs-dark-rgb: 58,59,69;font-size: 18px;margin: 8px;padding: 34px;">
+                <div class="container my-auto">
+                    <div class="text-center my-auto copyright" style="font-size: 14px;"><span>Copyright © 2022 Best
+                            Search. All trademarks, service marks, trade names, product names, logos and trade dress
+                            appearing&nbsp;<br>on our website are the property of their respective owners.
+                            BestSearch.&nbsp;</span></div>
+                </div>
+            </footer>
+        </section>
+    </main>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
+    <script src="assets/js/theme.js"></script>
+</body>
+
+</html>
